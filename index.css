@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 325px;
+    height: 375px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.card_img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 135px;
+    border-radius: 10px 10px 0 0;
+    background-image: url('./images/bg-pattern-card.svg');
+}
+
+.card_img img {
+    width: 92px;
+    height: 92px;
+    border: 5px solid white;
+    border-radius: 100px;
+    position: relative;
+    top: 90px;
+}
+
+.card_name_age {
+    position: relative;
+    top: 75px;
+    left: 90px;
+    align-items: center;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_name {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.card_age {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+.card_city {
+    width: 70px;
+    position: relative;
+    top: 100px;
+    left: 135px;
+}
